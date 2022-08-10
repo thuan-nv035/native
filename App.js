@@ -2,12 +2,12 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { Text, View } from "react-native";
 import { TailwindProvider } from "tailwindcss-react-native";
-import RootComponent from "./src/views/index";
+import Home from "./src/views/Home";
 export default function App() {
   return (
     <View>
       {/* <StatusBar style="auto" /> */}
-      <RootComponent></RootComponent>
+      <Home></Home>
     </View>
 
     // <TailwindProvider>
